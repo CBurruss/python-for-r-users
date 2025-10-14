@@ -136,8 +136,8 @@ Options include:
 
 1. **Clone this repository**
    ```bash
-   gh repo clone CBurruss/python-for-R-users
-   cd python-analysis-for-R
+   git clone https://github.com/CBurruss/python-for-r-users.git
+   cd python-for-r-users
    ```
 
 2. **Create Python conda environment**
@@ -152,4 +152,5 @@ Options include:
     ```
 
 4. **Open the notebook files in your IDE**
+
     - Run each cell in order (`▷ Run All`)
