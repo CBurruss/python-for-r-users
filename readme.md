@@ -12,6 +12,28 @@ For reproducibility, this repository has a conda environment file `environment.y
 
 **Note**: This project is not intended to serve as a tutorial for `R` or `Python` due to the specialized nature of the libraries and functions covered. Specifically, `R` users are encouraged to have a comfortable understanding of base `Python` functionality before diving into the `siuba` library. However, these notebooks can also serve as a guide for `Python` users interested in `dplyr` focused data analysis in `R`.
 
+## File Structure
+
+```bash
+python-for-r-users
+╠══ data/                                          # Holds all input data
+║   ╠══ shapes/                                    # Holds new orleans shapefile(s)
+║   ║   ╠══ tl_2024_22_bg.cpg
+║   ║   ╠══ tl_2024_22_bg.dbf
+║   ║   ╠══ tl_2024_22_bg.prj
+║   ║   ╠══ tl_2024_22_bg.shp
+║   ║   ╠══ tl_2024_22_bg.shp.ea.iso.xml
+║   ║   ╚══ tl_2024_22_bg.shx
+║   ╚══ calls_for_service_2025_demo.csv            # Calls for service sample set
+╠══ .git-nbconfig.yaml                             # Specifies rules for nbstripout-fast
+╠══ .gitattributes                                 # Enables git filter for notebooks
+╠══ demo-py.ipynb                                  # Notebook for Python data analysis 
+╠══ demo-r.ipynb                                   # Notebook for R data analysis
+╠══ environment.yml                                # Run file for conda environment
+╠══ install_dependencies.R                         # Run file for R packages
+╚══ readme.md                                      # Project readme (you are here!)
+```
+
 ## About the Data
 
 The CFS demo dataset included in the `data` folder in the project directory is a truncated version of the 2025 CFS dataset made publicly available at `data.nola.gov`. Specifically, it consists of the `857` unique calls for service incidents occuring on January 1, 2025. There are twenty-one columns in the original dataset, as follows:
