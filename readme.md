@@ -174,5 +174,5 @@ Options include:
     ```
 
 4. **Open the notebook files in your IDE**
-
+    - Select appropriate kernel for each notebook
     - Run each cell in order (`▷ Run All`)
