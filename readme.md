@@ -1,8 +1,17 @@
 # Data Analysis in Python for R Users — ReadMe
 
+## Table of Contents
+- [Overview](#overview)
+- [File Structure](#file-structure)
+- [About the Data](#about-the-data)
+- [Prerequisites](#prerequisites)
+- [Required Libraries](#required-libraries)
+- [Project Structure](#project-structure)
+- [Running this Notebook](#running-this-notebook)
+
 ## Overview
 
-This project provides a rough tutorial for performing data analysis in Python for people accustomed to `dplyr` style syntax in `R`. It is separated into two Jupyter notebooks — `demo-r.ipynb` and `demo-py.ipynb` — the former running on an `R` kernel, and the latter using a `python` kernel.   
+This project provides a rough tutorial for performing data analysis in `Python` for people accustomed to `dplyr` style syntax in `R`. It is separated into two Jupyter notebooks — `demo-r.ipynb` and `demo-py.ipynb` — the former running on an `R` kernel, and the latter using a `python` kernel.   
 
 Each notebook follows nearly identical steps in loading, cleaning, and analyzing one day's worth of calls for service (CFS) data for the City of New Orleans. There is a brief introduction to the syntax and grammar of each language, followed by various data cleaning  steps, and finishing with a rudimentary exploratory analysis of the cleaned dataset.  
 
