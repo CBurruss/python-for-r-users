@@ -18,9 +18,9 @@ if (any(!installed_packages)) {
 cat("R package installation check:\n")
 for (pkg in packages) {
   if (requireNamespace(pkg, quietly = TRUE)) {
-    cat("✓", pkg, "is installed\n")
+    cat(pkg, "is installed\n")
   } else {
-    cat("✗", pkg, "is MISSING\n")
+    cat(pkg, "is missing!\n")
   }
 }
 
