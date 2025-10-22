@@ -101,10 +101,9 @@ Options include:
 
 ### R
 1. `tidyverse` — for tidy data manipulation and visualization
-2. `naniar` — for identifying and replacing missing values as `NA`
-3. `glue` — for handy string interpolation
-4. `tidygeocoder` — for geocoding missing location data
-5. `sf` — for handling spatial feature (sf) objects
+2. `glue` — for handy string interpolation
+3. `tidygeocoder` — for geocoding missing location data
+4. `sf` — for handling spatial feature (sf) objects
 
 ### Python
 1. `pandas` — for data manipulation 
