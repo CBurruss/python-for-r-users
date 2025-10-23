@@ -76,7 +76,7 @@ And ensure `R` is added to your `PATH` — this requires administrative privileg
 
 ### 2. R Kernel for Jupyter — IRkernel
 
-This analysis uses IRkernel, which is an `R` kernel for Jupyter. Install is handled in the `install_dependencies.R`, but the user must ensure that their IDE and detect the kernel. 
+This analysis uses IRkernel, which is an `R` kernel for Jupyter. Install is handled in the `install_dependencies.R`, but the user must ensure that their IDE can detect the kernel. 
 
 TO-DO: Update IRkernel with updated instructions
 
@@ -92,7 +92,7 @@ This project uses a Conda environment for `Python` version control. I recommend 
 
 Options include:
  - VS Code / Positron (my recommendation)  
-     - VS Code will require the `Jupyter` and `R` extensions from the marketplace
+     - VS Code will require the `Jupyter`, `Python` and `R` extensions from the marketplace
  - JupyterLab  
  - Jupyter Notebook  
 
@@ -125,7 +125,7 @@ Options include:
    - `count_table()` — Generates a count table for any column in a dataset
    - `count_na()` — Counts `NA` values for each column in a dataset
    - `describe()` — Provides summary statistics for numeric columns in a dataset
-     - This function only exists in the R notebook and is meant to mimic the `Pandas` function `describe()`
+     - This function only exists in the R notebook and is meant to mimic the `Pandas` method `describe()`
 
 ### 1. Simple Data — This provides some of the most rudimentary basics of each language
 
