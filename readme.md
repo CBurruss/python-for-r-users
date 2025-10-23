@@ -34,7 +34,6 @@ python-for-r-users
 ║   ║   ╠══ tl_2024_22_bg.shp.ea.iso.xml
 ║   ║   ╚══ tl_2024_22_bg.shx
 ║   ╚══ calls_for_service_2025_demo.csv            # Calls for service sample set
-╠══ .git-nbconfig.yaml                             # Specifies rules for nbstripout-fast
 ╠══ .gitattributes                                 # Enables git filter for notebooks
 ╠══ demo-py.ipynb                                  # Notebook for Python data analysis 
 ╠══ demo-r.ipynb                                   # Notebook for R data analysis
