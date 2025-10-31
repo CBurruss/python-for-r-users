@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Data Analysis in Python for R Users — ReadMe
 
 ## Table of Contents
@@ -184,6 +183,7 @@ Options include:
 4. **Open the notebook files in your IDE**
     - Select appropriate kernel for each notebook
     - Run each cell in order (`▷ Run All`)
+
 =======
 # Data Analysis in Python for R Users — ReadMe
 
@@ -370,4 +370,3 @@ Options include:
 4. **Open the notebook files in your IDE**
     - Select appropriate kernel for each notebook
     - Run each cell in order (`▷ Run All`)
->>>>>>> fe5f15f937115c969d3e9d68b066e124261233e9
